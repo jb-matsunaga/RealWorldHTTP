@@ -35,12 +35,9 @@ Keep-Aliveの接続時間は、クライアントとサーバーの両方が持�
 
 
 >*参照*
-
->[持続接続](https://docs.oracle.com/javase/jp/6/technotes/guides/net/http-keepalive.html)
-
->[TCP/IP通信とは](http://research.nii.ac.jp/~ichiro/syspro98/tcpip.html)
-
->[Nginx の keep-alive の設定と検証](http://www.nari64.com/?p=579)
+- [持続接続](https://docs.oracle.com/javase/jp/6/technotes/guides/net/http-keepalive.html)
+- [TCP/IP通信とは](http://research.nii.ac.jp/~ichiro/syspro98/tcpip.html)
+- [Nginx の keep-alive の設定と検証](http://www.nari64.com/?p=579)
 
 
 
