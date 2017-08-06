@@ -278,6 +278,32 @@ EDH-RSA-DES-CBC3-SHA    SSLv3 Kx=DH       Au=RSA  Enc=3DES(168) Mac=SHA1
 [新しいTLSの暗号方式ChaCha20-Poly1305](http://d.hatena.ne.jp/jovi0608/20160404/1459748671)
 
 ### 4.2.8 プロトコルの選択
+TSLが提供する機能の中で、次世代通信にとってなくてはならないものがアプリケーション層のプロトコルを選択する拡張機能である。
+
+ALPN(Application-Layer Protocol Negotiation)拡張.
+
+ALPNでは、TLSのハンドシェイク開始時に、クライアントからサーバーに「クライアントが利用可能なプロトコル一覧」を添付して送信する。サーバーはそのレスポンスで、鍵交換や証明書と一緒に選択したプロトコルを送る。
+
+選択できるプロトコル名の一覧に現在登録されている名前は下記表の通り。おもにHTTP系と、WebRTC系のプロトコルがある。
+
+|プロトコル|識別子|
+|:---|---:|
+|HTTP/1.1|http/1.1|
+|SPDY/1|spdy/1|
+|SPDY/2|spdy/2|
+|SPDY/3|spdy/3|
+|Traversak Using Relays around NAT(TURN)|stun.turn|
+|NAT discovery using Session Traversal Utilties|stun.nat-discovery|
+|HTTP2 over TLS|h2|
+|HTTP2 over TCP|h2c|
+|WebRTCのメディアとデータ|webrtc|
+|Confidential Web RTCのメディアとデータ|c-webrtc|
+|FTP|ftp|
+
+### 4.2.9 TLSが守るもの
+TLSは通信経路の安全を守るための仕組みである。クライアントとサーバー間の通信経路がまったく信頼できない状態（中間者が通信を傍受したりなど）でも安全な通信が行えるように設計されている。TLSはその状態でも、傍受も改ざんも詐称もされない通信を提供する。
+
+TLSは、いくつもの方法を組み合わせてそれぞれの穴を相互に防ぎあっている。
 
 
 
