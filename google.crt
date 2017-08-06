@@ -1,0 +1,61 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Mountain View/O=Google Inc/CN=www.google.com
+   i:/C=US/O=Google Inc/CN=Google Internet Authority G2
+ 1 s:/C=US/O=Google Inc/CN=Google Internet Authority G2
+   i:/C=US/O=GeoTrust Inc./CN=GeoTrust Global CA
+ 2 s:/C=US/O=GeoTrust Inc./CN=GeoTrust Global CA
+   i:/C=US/O=Equifax/OU=Equifax Secure Certificate Authority
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEgDCCA2igAwIBAgIILo5csDwZHEQwDQYJKoZIhvcNAQELBQAwSTELMAkGA1UE
+BhMCVVMxEzARBgNVBAoTCkdvb2dsZSBJbmMxJTAjBgNVBAMTHEdvb2dsZSBJbnRl
+cm5ldCBBdXRob3JpdHkgRzIwHhcNMTcwNzI1MDg0MDQ2WhcNMTcxMDE3MDgyODAw
+WjBoMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwN
+TW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIEluYzEXMBUGA1UEAwwOd3d3
+Lmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4PJVj
+K3ZAOopICW7qEh0rgpyr9llxhnrCdtfNAbSRZ95uYO4vHrKhjxK6O+wv1LI98HFc
+Vsx/FRWQ/ZddNgfpiFqlkkx+oB1IAeK/aQhtuowhAVQxeH2yQ1umsjERd+UKjwE7
+5X8cd4501iwB8UtNemcuN5sM2CR8O7GPMkfEnc4mHH/aNd0uY1skqV6wjFkk1QSH
+NN1ItuFUsBjC9Wy1TlHtlhtazJsFm+bF0V/dNSEXw96Wfzeh9w2KtftQafVJf5Xc
+f/7q/itPHd+YQOfn0jzSkhS0JtFM/YxKdKljqeVbAPB0Zd+zBwO6eLWWu7o2tp1B
+OyVp8KdiDGO3H8/LAgMBAAGjggFLMIIBRzAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwGQYDVR0RBBIwEIIOd3d3Lmdvb2dsZS5jb20waAYIKwYBBQUHAQEE
+XDBaMCsGCCsGAQUFBzAChh9odHRwOi8vcGtpLmdvb2dsZS5jb20vR0lBRzIuY3J0
+MCsGCCsGAQUFBzABhh9odHRwOi8vY2xpZW50czEuZ29vZ2xlLmNvbS9vY3NwMB0G
+A1UdDgQWBBQ5CR5Ca9MB55G6aLgUaD9J8xbAbDAMBgNVHRMBAf8EAjAAMB8GA1Ud
+IwQYMBaAFErdBhYbvPZotXb1gba7Yhq6WoEvMCEGA1UdIAQaMBgwDAYKKwYBBAHW
+eQIFATAIBgZngQwBAgIwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3BraS5nb29n
+bGUuY29tL0dJQUcyLmNybDANBgkqhkiG9w0BAQsFAAOCAQEALup3Fuv1e9wQ2p+J
+YYnbxw++kVwSw9Qn1d/eHnhi4gPiOKiojv8DbGiMYDs0Bd+SZYMkJ3wAqgyFKP4V
+5QIWrwwBjpcCUeMmgi8nd2hQGl16nBgJwPWTuEZl7xb8iVvk9wy0tAZRfZMjjIjc
+T2WFHMOfRoGrESMkGKHxSGl+SaGRiyWJ4DRUpcXPoN310K/frnqcdFJS7e+stg+/
+sDnl4898+wp5SfMo5lTttlRLcwRx537jpt3gtM57sbh1fwF/+5VEIFrCO6Op9xpp
+WBLs4vbMUrHsu0Qi0haNN8W8mxlaovSxpIXzA25dQkJxlla0l7NHm73yzOkSvgiK
+UNnMyg==
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=Mountain View/O=Google Inc/CN=www.google.com
+issuer=/C=US/O=Google Inc/CN=Google Internet Authority G2
+---
+No client certificate CA names sent
+---
+SSL handshake has read 3296 bytes and written 456 bytes
+---
+New, TLSv1/SSLv3, Cipher is AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : AES128-SHA
+    Session-ID: 65F5F0DC08723A64721AB81B6DAE3A944EE3F7C96F3CFF70FAAF127DED73F4D0
+    Session-ID-ctx: 
+    Master-Key: E53EC6DCEEB9656B3913D9CF1EEC4F95460053B0829B7AD10C2BE863BA7C4615651BE60DDF1131196D45397040A27032
+    Key-Arg   : None
+    Start Time: 1502021657
+    Timeout   : 300 (sec)
+    Verify return code: 0 (ok)
+---
